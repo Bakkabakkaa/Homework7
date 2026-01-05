@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3292d4-2b1a-4b41-babb-f9e380802163" name="Changes" comment="add Product and Index models">
-      <change beforePath="$PROJECT_DIR$/Task8/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task8/Controllers/HomeController.cs" afterDir="false" />
+    <list default="true" id="0f3292d4-2b1a-4b41-babb-f9e380802163" name="Changes" comment="add model IndexModel to Index.cshtml">
       <change beforePath="$PROJECT_DIR$/Task8/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Task8/Views/Home/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767653112133</updated>
-      <workItem from="1767653114122" duration="812000" />
+      <workItem from="1767653114122" duration="1116000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -147,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767653610803</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add model IndexModel to Index.cshtml">
+      <option name="closed" value="true" />
+      <created>1767653949775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767653949775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="added a template MVC" />
     <MESSAGE value="add Product and Index models" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Product and Index models" />
+    <MESSAGE value="add model IndexModel to Index.cshtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add model IndexModel to Index.cshtml" />
   </component>
 </project>
