@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3292d4-2b1a-4b41-babb-f9e380802163" name="Changes" comment="added table display">
-      <change beforePath="$PROJECT_DIR$/Task8/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task8/Controllers/HomeController.cs" afterDir="false" />
+    <list default="true" id="0f3292d4-2b1a-4b41-babb-f9e380802163" name="Changes" comment="add CreateProduct endpoint">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task8/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Task8/Views/Home/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767653112133</updated>
-      <workItem from="1767653114122" duration="1288000" />
+      <workItem from="1767653114122" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -163,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767654261398</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add CreateProduct endpoint">
+      <option name="closed" value="true" />
+      <created>1767654436610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767654436610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +187,7 @@
     <MESSAGE value="add Product and Index models" />
     <MESSAGE value="add model IndexModel to Index.cshtml" />
     <MESSAGE value="added table display" />
-    <option name="LAST_COMMIT_MESSAGE" value="added table display" />
+    <MESSAGE value="add CreateProduct endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CreateProduct endpoint" />
   </component>
 </project>

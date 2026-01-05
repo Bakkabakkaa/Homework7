@@ -26,4 +26,16 @@
             </tr>
         }
     </table>
+    <h3>Новый продукт:</h3>
+    <form action="@Url.Action("CreateProduct", "Home")" method="post">
+        Category:<br/>
+        <input type="text" name="Category" value=""/><br/>
+        Description:<br/>
+        <input type="text" name="Description" value=""/><br/>
+        Price:<br/>
+        <input type="number" name="Price" value=""/><br/>
+        Quantity:<br/>
+        <input type="number" name="Quantity" value=""/><br/>
+        <input type="submit" name="Create"/><br/>
+    </form>
 </div>
