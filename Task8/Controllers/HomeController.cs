@@ -25,6 +25,15 @@ public class HomeController : Controller
         return View(model);
     }
 
+    [HttpPost("create-product")]
+    public IActionResult CreateProduct([FromForm] Product newProduct)
+    {
+        newProduct.ID = _nextId++;
+        _products.Add(newProduct);
+
+        return RedirectToAction("Index");
+    }
+
     public IActionResult Privacy()
     {
         return View();

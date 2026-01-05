@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3292d4-2b1a-4b41-babb-f9e380802163" name="Changes" comment="add model IndexModel to Index.cshtml">
-      <change beforePath="$PROJECT_DIR$/Task8/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Task8/Views/Home/Index.cshtml" afterDir="false" />
+    <list default="true" id="0f3292d4-2b1a-4b41-babb-f9e380802163" name="Changes" comment="added table display">
+      <change beforePath="$PROJECT_DIR$/Task8/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task8/Controllers/HomeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
 }]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../7. Синхронные запросы в Razor/Task7/WebApplication1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/C#/Учеба/ASP.Net/8. Основы JS/Task8/Task8/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -120,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767653112133</updated>
-      <workItem from="1767653114122" duration="1116000" />
+      <workItem from="1767653114122" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -154,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767653949775</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added table display">
+      <option name="closed" value="true" />
+      <created>1767654261398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767654261398</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +177,7 @@
     <MESSAGE value="added a template MVC" />
     <MESSAGE value="add Product and Index models" />
     <MESSAGE value="add model IndexModel to Index.cshtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add model IndexModel to Index.cshtml" />
+    <MESSAGE value="added table display" />
+    <option name="LAST_COMMIT_MESSAGE" value="added table display" />
   </component>
 </project>
