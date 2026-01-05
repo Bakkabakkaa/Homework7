@@ -7,6 +7,8 @@ namespace Task8.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private static readonly List<Product> _products = new List<Product>();
+    private static int _nextId = 1;
 
     public HomeController(ILogger<HomeController> logger)
     {
@@ -15,7 +17,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        var model = new IndexModel()
+        {
+            Products = _products
+        };
+        
+        return View(model);
     }
 
     public IActionResult Privacy()
