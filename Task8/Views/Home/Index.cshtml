@@ -23,7 +23,10 @@
                 <td><div id="description_text_@i">@products[i].Description</div></td>
                 <td><div id="price_text_@i">@products[i].Price</div></td>
                 <td><div id="quantity_text_@i">@products[i].Quantity</div></td>
-                <td><button onclick="onEditClick(@i)">✎</button></td>
+                <td>
+                    <button onclick="onEditClick(@i)">✎</button>
+                    <a href="@Url.Action("DeleteProduct", "Home", new { id = products[i].ID })">⌫</a>
+                </td>
             </tr>
         }
     </table>

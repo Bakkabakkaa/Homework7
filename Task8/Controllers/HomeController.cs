@@ -34,6 +34,15 @@ public class HomeController : Controller
         return RedirectToAction("Index");
     }
 
+    [HttpGet("delete-product")]
+    public IActionResult DeleteProduct(int id)
+    {
+        var product = _products.FirstOrDefault(p => p.ID == id);
+        _products.Remove(product);
+
+        return RedirectToAction("Index");
+    }
+
     public IActionResult Privacy()
     {
         return View();
