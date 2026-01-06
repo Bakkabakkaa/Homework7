@@ -19,10 +19,11 @@
         {
             <tr>
                 <td>@products[i].ID</td>
-                <td>@products[i].Category</td>
-                <td>@products[i].Description</td>
-                <td>@products[i].Price</td>
-                <td>@products[i].Quantity</td>
+                <td><div id="category_text_@i">@products[i].Category</div></td>
+                <td><div id="description_text_@i">@products[i].Description</div></td>
+                <td><div id="price_text_@i">@products[i].Price</div></td>
+                <td><div id="quantity_text_@i">@products[i].Quantity</div></td>
+                <td><button onclick="onEditClick(@i)">✎</button></td>
             </tr>
         }
     </table>
@@ -39,3 +40,23 @@
         <input type="submit" name="Create"/><br/>
     </form>
 </div>
+<script>
+    function onEditClick(i) 
+    {
+        replaceTextWithInput(`category_text_${i}`);
+        replaceTextWithInput(`description_text_${i}`);
+        replaceTextWithInput(`price_text_${i}`);
+        replaceTextWithInput(`quantity_text_${i}`);
+
+    }
+    function replaceTextWithInput(containerId)
+    {
+        var nameText = document.getElementById(containerId);
+        var nameInput = document.createElement("input");
+        nameInput.id = containerId.replace("_text_", "_input_");
+        nameInput.value = nameText.innerText;
+        
+        nameText.innerHTML = "";
+        nameText.appendChild(nameInput);
+    }
+</script>
