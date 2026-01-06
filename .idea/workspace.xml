@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3292d4-2b1a-4b41-babb-f9e380802163" name="Changes" comment="added product deletion">
+    <list default="true" id="0f3292d4-2b1a-4b41-babb-f9e380802163" name="Changes" comment="add switch UI elements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task8/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Task8/Views/Home/Index.cshtml" afterDir="false" />
     </list>
@@ -122,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767653112133</updated>
-      <workItem from="1767653114122" duration="7249000" />
+      <workItem from="1767653114122" duration="7805000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -196,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767660746515</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add switch UI elements">
+      <option name="closed" value="true" />
+      <created>1767661623846</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767661623846</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +223,7 @@
     <MESSAGE value="added display of the product creation form" />
     <MESSAGE value="added product editing" />
     <MESSAGE value="added product deletion" />
-    <option name="LAST_COMMIT_MESSAGE" value="added product deletion" />
+    <MESSAGE value="add switch UI elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="add switch UI elements" />
   </component>
 </project>

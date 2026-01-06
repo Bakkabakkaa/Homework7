@@ -65,9 +65,12 @@
     function replaceTextWithInput(containerId)
     {
         var nameText = document.getElementById(containerId);
+        var originalValue = nameText.innerText;
         var nameInput = document.createElement("input");
         nameInput.id = containerId.replace("_text_", "_input_");
         nameInput.value = nameText.innerText;
+        
+        nameInput.dataset.originalValue = originalValue;
         
         nameText.innerHTML = "";
         nameText.appendChild(nameInput);
@@ -79,8 +82,23 @@
         document.getElementById(`edit_actions_${i}`).style.display = "block";
     }
     
+    function onSaveClick(i)
+    {
+        saveText(`category_text_${i}`);
+        saveText(`description_text_${i}`);
+        saveText(`price_text_${i}`);
+        saveText(`quantity_text_${i}`);
+
+        switchToViewMode(i);
+    }
+    
     function onCancelClick(i)
     {
+        restoreText(`category_text_${i}`);
+        restoreText(`description_text_${i}`);
+        restoreText(`price_text_${i}`);
+        restoreText(`quantity_text_${i}`);
+
         switchToViewMode(i);
     }
 
@@ -88,6 +106,22 @@
     {
         document.getElementById(`edit_actions_${i}`).style.display = "none";
         document.getElementById(`view_actions_${i}`).style.display = "block";
+    }
+    
+    function restoreText(containerId)
+    {
+        var nameText = document.getElementById(containerId);
+        var nameInput = nameText.querySelector("input");
+        
+        nameText.innerText = nameInput.dataset.originalValue;
+    }
+
+    function saveText(containerId)
+    {
+        var nameText = document.getElementById(containerId);
+        var nameInput = nameText.querySelector("input");
+
+        nameText.innerText = nameInput.value;
     }
 
 </script>
